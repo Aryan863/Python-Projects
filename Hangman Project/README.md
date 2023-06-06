@@ -1,39 +1,55 @@
-#Hangman Game
-![Alt text](Hangman.webp)
-Welcome to the Hangman game! This is a classic word-guessing game where you have to guess the letters of a hidden word before you run out of attempts. This game was created using Python.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman Game</title>
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hangman Game</h1>
+    <img src="Hangman.webp" alt="Hangman">
 
-#Instructions
+    <h2>Instructions</h2>
+    <ol>
+        <li>Run the <code>hangman.py</code> file to start the game.</li>
+        <li>The game will randomly select a word from a predefined list.</li>
+        <li>You have to guess the letters of the word by entering them one at a time.</li>
+        <li>You have a limited number of attempts to guess the word.</li>
+        <li>If you guess a correct letter, it will be revealed in the word.</li>
+        <li>If you guess an incorrect letter, the hangman will start to appear.</li>
+        <li>Keep guessing until you either guess the word correctly or run out of attempts.</li>
+        <li>To exit the game at any time, press <kbd>Ctrl + C</kbd> in the terminal.</li>
+    </ol>
 
-1. Run the main.py file to start the game.
-2. The game will randomly select a word from a predefined list.
-3. You have to guess the letters of the word by entering them one at a time.
-4. You have a limited number of attempts to guess the word.
-5. If you guess a correct letter, it will be revealed in the word.
-6. If you guess an incorrect letter, the hangman will start to appear.
-7. Keep guessing until you either guess the word correctly or run out of attempts.
+    <h2>Prerequisites</h2>
+    <p>Make sure you have Python installed on your machine. This game was created using Python 3.</p>
 
-#Prerequisites
-Make sure you have Python installed on your machine. This game was created using Python 3.
+    <h2>Installation</h2>
+    <ol>
+        <li>Clone or download this repository.</li>
+        <li>Navigate to the project directory.</li>
+    </ol>
 
-##Installation
+    <h2>Usage</h2>
+    <p>To start the game, open a terminal or command prompt and run the following command:</p>
+    <pre><code>python hangman.py</code></pre>
 
-- Clone or download this repository.
-- Navigate to the project directory.
-- To start the game, open a terminal or command prompt and run the following command:
+    <h2>Screenshots</h2>
+    <img src="screenshot.png" alt="Gameplay">
 
-####shell
+    <h2>Contributing</h2>
+    <p>Contributions are always welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.</p>
 
-```
-# Copy code
-python hangman.py
-```
+    <h2>License</h2>
+    <p>This project is licensed under the <a href="LICENSE">MIT License</a>. Feel free to use and modify this code for your own purposes.</p>
 
-#Screenshots
+    <h2>Acknowledgements</h2>
+    <p>This game was inspired by the classic hangman game. Special thanks to the Python community for providing useful libraries and resources.</p>
 
-#Contributing
-Contributions are always welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.
-
-#Acknowledgements
-This game was inspired by the classic hangman game. Special thanks to the Python community for providing useful libraries and resources.
-
-##Enjoy the game!
+    <p>Enjoy the game!</p>
+</body>
+</html>
