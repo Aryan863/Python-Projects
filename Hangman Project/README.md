@@ -29,7 +29,7 @@
 
 <h2>Usage</h2>
     <p>To start the game, open a terminal or command prompt and run the following command:</p>
-    <pre><code>python hangman.py</code></pre>
+    <pre><code>python main.py</code></pre>
 
 <h2>Contributing</h2>
     <p>Contributions are always welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.</p>
