@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+    
 </head>
 <body>
     <h1>Hangman Game</h1>
