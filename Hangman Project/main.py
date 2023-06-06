@@ -14,13 +14,12 @@ def printGuess():
     for i in guess:
         print(i,end=" ")
 
-
+printGuess()
 life=7
 hang=-1
 while(life>0):
     user_letter=input("\nEnter a letter- ").lower()
     print("")
-    printGuess()
 
     if user_letter in guess:
         print(f"You've already guessed {user_letter}")
