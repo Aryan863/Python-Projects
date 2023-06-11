@@ -102,7 +102,7 @@ shift=shift%26
     <p>This project is licensed under the <a href="LICENSE">MIT License</a>. Feel free to use and modify this code for your own purposes.</p>
 
 <h2>Acknowledgements</h2>
-    <p>This game was inspired by the Caesar Cipher encryption technique. Special thanks to the Python community for providing useful libraries and resources.</p>
+    <p>This program was inspired by the Caesar Cipher encryption technique. Special thanks to the Python community for providing useful libraries and resources.</p>
 
 <p>Enjoy the program!</p>
 </body>
