@@ -5,7 +5,7 @@
 </head>
 <body>
   <h1>Caesar Cipher Program</h1>
-  <img src="caesarCipher.png" alt="Caesar Cypher ">
+  <img src="ceaserCipher.png" alt="Caesar Cypher ">
 
   <h2>Description</h2>
   <p>
@@ -87,7 +87,7 @@ shift=shift%26
         end = True
         print("Goodbye")
 
-    </code>
+  </code>
 
   </pre>
 
@@ -104,6 +104,6 @@ shift=shift%26
 <h2>Acknowledgements</h2>
     <p>This game was inspired by the Caesar Cipher encryption technique. Special thanks to the Python community for providing useful libraries and resources.</p>
 
-<p>Enjoy the game!</p>
+<p>Enjoy the program!</p>
 </body>
 </html>
