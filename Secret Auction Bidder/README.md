@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Secret Auction Program</title>
+  
 </head>
 <body>
   <h1>Secret Auction Program</h1>
