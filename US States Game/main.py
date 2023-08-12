@@ -16,7 +16,7 @@ dataset = pd.read_csv("./US States Game/50_states.csv")
 states = dataset["state"].to_list()
 score = 0
 guessed_states = []
-missing_state = []
+
 
 game_is_on = True
 
@@ -25,10 +25,11 @@ while game_is_on:
     answer_state = (screen.textinput(title=f"{score}/50 states correct", prompt="What's another State's name?")).title()
     if answer_state == "Exit":
         # storing unguessed states in csv file
-        for state in states:
-            if state not in guessed_states:
-                missing_state.append(state)
-
+        missing_state = [state for state in states if state not in guessed_states]
+        # for state in states:
+        #     if state not in guessed_states:
+        #         missing_state.append(state)
+        
         new_data = pd.DataFrame(missing_state)
         new_data.to_csv("./US States Game/unguessed_states.csv") 
         break
