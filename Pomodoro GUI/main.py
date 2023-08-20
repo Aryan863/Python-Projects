@@ -93,4 +93,4 @@ checkmark_label.grid(row=3, column=1)
 
 
 
-window,mainloop()
+window.mainloop()
